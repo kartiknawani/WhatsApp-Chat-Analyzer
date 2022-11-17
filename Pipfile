@@ -1,7 +1,11 @@
+[requires]
+python_version = "3.8"
+
 [[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
+
 
 [dev-packages]
 
@@ -13,5 +17,4 @@ streamlit = "==0.61.0"
 pandas = "==1.0.3"
 emoji = "==0.5.4"
 
-[requires]
-python_version = "3.8"
+
