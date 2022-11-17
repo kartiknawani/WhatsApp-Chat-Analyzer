@@ -1,6 +1,6 @@
+streamlit
 wordcloud
 pandas
 matplotlib
-streamlit
 plotly
 emoji
