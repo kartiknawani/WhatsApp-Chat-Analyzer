@@ -20,10 +20,6 @@ st.markdown("This app is use to analyze your WhatsApp Chat using the exported te
 st.sidebar.title("Analyze:")
 st.sidebar.markdown("This app is use to analyze your WhatsApp Chat using the exported text file 📁.")
 
-st.sidebar.markdown('[![Premchandra Singh]\
-                    (https://img.shields.io/badge/Author-@pcsingh-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)]\
-                    (https://github.com/pcsingh/WhatsApp-Chat-Analyzer/)')
-
 st.sidebar.markdown('**How to export chat text file?**')
 st.sidebar.text('Follow the steps 👇:')
 st.sidebar.text('1) Open the individual or group chat.')
@@ -183,6 +179,10 @@ if filename is not None:
         st.error("Something is wrong in loading the data! Please select the correct date format or Try again. Error Type: {}".format(e.__name__))
 
 
-st.sidebar.markdown("[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/premchandra-singh/)")
-st.sidebar.markdown("[![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://www.linkedin.com/in/premchandra-singh/)")
+st.sidebar.markdown("Made by students of GTBIT: ")
+st.sidebar.text('Kartik Nawani - 03476803119')
+st.sidebar.text('Vaishnavi Prakash - 0076803119')
+st.sidebar.text('Jigyasa - 0076803119')
+st.sidebar.text('Navroop - 0076803119')
+
 
